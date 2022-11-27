@@ -12,8 +12,8 @@ The given csv file([new_full_student_data.csv](https://github.com/ninicholasas/S
 Here is the full analysis that I have done [Student_Data_Challenge](https://github.com/ninicholasas/School_District_Analysis/blob/main/Unsolved/Student_Data_Challenge_Starter_Code.ipynb)<br />
 For this analysis I used Pandas and Jupyter Notebooks to clean and group the given csv file.
 
-First, I removed the rows that had null values and removed the rows that was duplicated by using __.dropna()__ and __.drop_duplicates()__.
-Next, I changed the data type for the grade by removing the "th" by using __.str.replace__ and changing the type to integer with __.astype()__.
+First, I removed the rows that had null values and removed the rows that was duplicated by using __.dropna()__ and __.drop_duplicates()__.<br />
+Next, I changed the data type for the grade by removing the "th" by using __.str.replace__ and changing the type to integer with __.astype()__.<br />
 Further on the analysis was done by getting the average budget for Charter and Public schools, the student count for each school and the average math score for the 9th to 12th grade for each Charter and Public schools.
 
 ## Result
